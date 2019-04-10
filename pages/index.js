@@ -1,5 +1,6 @@
-import Layout from '../components/MyLayout.js'
 import Link from 'next/link'
+import Layout from '../components'
+import Header from '../components/Header'
 
 function PostLink(props) {
   return (
@@ -14,6 +15,7 @@ function PostLink(props) {
 export default function Index() {
   return (
     <Layout>
+      <Header />
       <h1>My Blog</h1>
       <ul>
         <PostLink id="hello-nextjs" title="Hello Next.js" />
