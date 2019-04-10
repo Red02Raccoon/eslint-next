@@ -5,6 +5,12 @@
   "useTabs": false,
   "tabWidth": 2,
   "trailingComma": "all",
+  "overrides": [{
+    "files": "*.styles.js",
+    "options": {
+      "trailingComma": "none"
+    }
+  }],
   "bracketSpacing": true,
   "jsxBracketSameLine": false,
   "arrowParens": "avoid"

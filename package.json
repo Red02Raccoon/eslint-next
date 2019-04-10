@@ -8,9 +8,9 @@
     "dev": "node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
-    "lint": "eslint --debug *.js",
-    "lint:write": "eslint --debug *.js --fix",
-    "prettier": "prettier --write *.js"
+    "lint": "eslint --debug .",
+    "lint:write": "eslint --debug --fix .",
+    "prettier": "prettier --write '**/*.js'"
   },
   "dependencies": {
     "next": "^8.0.3",

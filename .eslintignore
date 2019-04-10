@@ -1,4 +1,3 @@
-/.git
-/.vscode
-/.next
+.next
+static
 node_modules
