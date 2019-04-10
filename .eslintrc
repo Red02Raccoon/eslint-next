@@ -1,13 +1,9 @@
 {
   "parser": "babel-eslint",
-  "plugins": [
-    "react"
-  ],
+  "plugins": ["prettier", "jsx-a11y"],
   "rules": {
-    "max-len": [1, 120, 2, {
-      "ignoreComments": true
-    }],
-    "prop-types": [2]
+    "react/react-in-jsx-scope": "off",
+    "jsx-a11y/anchor-is-valid": "off"
   },
-  "extends": ["eslint:recommended", "plugin:react/recommended"]
+  "extends": ["react-app", "plugin:jsx-a11y/recommended"]
 }
