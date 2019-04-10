@@ -14,6 +14,7 @@ export default function Header() {
         <a style={linkStyle}>About</a>
       </Link>
       <Link />
+      <Link />
     </div>
   )
 }

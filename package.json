@@ -8,10 +8,9 @@
     "dev": "node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
-    "lint": "eslint --debug src/",
-    "lint:write": "eslint --debug src/ --fix",
-    "prettier": "prettier --write pages/*.js",
-    "eslint": "node_modules/.bin/eslint components/"
+    "lint": "eslint --debug *.js",
+    "lint:write": "eslint --debug *.js --fix",
+    "prettier": "prettier --write *.js"
   },
   "dependencies": {
     "next": "^8.0.3",
@@ -24,9 +23,7 @@
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-config-prettier": "^4.1.0",
-    "eslint-config-react-app": "^3.0.8",
     "eslint-plugin-babel": "^5.1.0",
-    "eslint-plugin-flowtype": "^2.50.3",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-prettier": "^3.0.1",
