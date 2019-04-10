@@ -3,7 +3,8 @@
   "plugins": ["prettier", "jsx-a11y"],
   "rules": {
     "react/react-in-jsx-scope": "off",
-    "jsx-a11y/anchor-is-valid": "off"
+    "jsx-a11y/anchor-is-valid": "off",
+    "no-console": "error"
   },
   "extends": ["react-app", "plugin:jsx-a11y/recommended"]
 }
